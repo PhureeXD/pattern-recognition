@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Data outputs
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Models and reports outputs
+models/*
+reports/*
+!models/.gitkeep
+!reports/.gitkeep
+
+# Notebook / Colab generated files
+*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
